@@ -5,7 +5,7 @@ import {test} from '@playwright/test'
 test('dialogs',async ({page}) => {
 
     await page.goto('https://testautomationpractice.blogspot.com')
-    await page.getByRole('buutton',{name:'Simple Alert'}).click()
+    await page.getByRole('button',{name:'Simple Alert'}).click()
 
     await page.getByRole('button',{name:'Confirmation Alert'}).click()
     
